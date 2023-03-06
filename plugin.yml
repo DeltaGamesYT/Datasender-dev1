@@ -1,0 +1,21 @@
+# Desarrollado por DeltaGamesYT
+# GitHub: https://www.github.com/DeltaGamesYT
+# Este plugin esta bajo licencia Creative Commons
+# Si lo compartes igual o editado, deja creditos
+# Si no dejas creditos se hara denuncia correspondiente
+
+name: DataSender
+main: DeltaGamesYT\DataSender
+version: 1.0
+author: DeltaGamesYT
+api: 2.0.0
+website: https://www.github.com/DeltaGamesYT
+description: 'Te da informacion del jugador'
+commands:
+   dat:
+      description: Te envia información de un jugador
+      permission: datasender.command.dat
+permissions:
+   datasender.command.dat
+      description: Te autoriza a usar el comando /dat
+      default: op
